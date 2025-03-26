@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto", sans-serif !important;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.container {
+    width: min(1140px, 80%);
+    margin-inline: auto;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 100px;
+    max-width: -webkit-fill-available;
+}
+
+button {
+    background: #4dff00;
+    color: white;
+    cursor: pointer;
+
+    color: #000;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background: #37b800;
+    color: #fff;
+}
+
+.error {
+    color: red;
+    background: #ffffffcc;
+    padding: 5px;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-banner {
+    background: url(../images/movie-banner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container h2,
+.form-link {
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.form-link:hover {
+    color: #4dff00;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 640px) {
+    .side-bar {
+        display: none;
+    }
+}
